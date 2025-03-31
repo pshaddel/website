@@ -1,15 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-.body {
-    font-family: 'DejaVu Sans Mono', monospace;
+* {
+    font-family: 'DejaVu Sans Mono', monospace !important;
 }
 
-.name {
-    position: absolute;
+.personal-name {
+    position: relative;
     font-weight: 100;
-    font-size: 20px;
-    font-family: 'DejaVu Sans Mono', monospace;
+    /* margin: auto; */
+    font-size: 24px;
+    /* normal cursor */
+    cursor: default;
 }
+
+.summary {
+    font-size: 16px;
+    font-weight: 100;
+    /* margin: auto; */
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: blue;
+}
+
+.tech {
+    margin: auto;
+}
+
+.tech ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+.head {
+    text-align: center;
+}
+
+.personal-picture {
+    margin: auto;
+}
+
 .personal {
     display: flex;
     justify-content: center;
@@ -39,7 +74,7 @@ div.personal > a {
 }
 
 .personal-picture {
-    width: 60px;
+    width: 90px;
     padding: 4px;
     height: auto;
     border-radius: 50%;
