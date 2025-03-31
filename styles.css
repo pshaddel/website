@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.body {
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+
+.name {
+    position: absolute;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+.personal {
+    display: flex;
+    justify-content: center;
+}
+
+div.personal > a {
+    position: relative;
+}
+
+.emailto {
+
+    position: relative
+}
+
+.top {
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    z-index: 1000;
+    text-align: right;
+    /* margin: 10px; */
+    background-color: white;
+}
+
+.emailto {
+    text-align: right;
+}
+
+.personal-picture {
+    width: 60px;
+    padding: 4px;
+    height: auto;
+    border-radius: 50%;
+    /* border: 4px solid white; */
+}
+
+.personal-picture:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+header {
+    visibility: hidden;
+    height: 0;
+}
+.parent {
+    /* background-color: aliceblue; */
+    /* position: relative; */
+    /* height: 200vh; */
+}
+.child1 {
+    background-color: lightcoral;
+    /* position: sticky; */
+    top: 10px;
+}
+.child2 {
+    background-color: lightgreen;
+}
+.child3 {
+    background-color: lightgoldenrodyellow;
+}
