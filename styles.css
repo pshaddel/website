@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* Virgil font excalidraw */
+@font-face {
+    font-family: "Virgil";
+    src: url("Virgil.woff2");
+    font-display: swap;
+}
 
 * {
-    font-family: 'DejaVu Sans Mono', monospace !important;
+    font-family: 'DejaVu Sans Mono', monospace;
 }
 
 .personal-name {
@@ -11,6 +17,7 @@
     font-size: 24px;
     /* normal cursor */
     cursor: default;
+    font-family: 'Virgil', sans-serif;
 }
 
 .summary {
