@@ -36,7 +36,7 @@
 }
 
 .articles-list {
-    text-align: left;
+    text-align: center;
 }
 
 .latest-articles h4 {
@@ -63,7 +63,7 @@
     margin: auto;
 }
 
-.tech ul {
+ul {
     list-style-type: none;
     padding: 2px;
 }
