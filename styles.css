@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /* Virgil font excalidraw */
-@font-face {
+/* @font-face {
     font-family: "Virgil";
     src: url("Virgil.woff2");
     font-display: swap;
-}
+} */
 
 * {
     font-family: 'DejaVu Sans Mono', monospace;
@@ -17,7 +17,31 @@
     font-size: 24px;
     /* normal cursor */
     cursor: default;
-    font-family: 'Virgil', sans-serif;
+    /* font-family: 'Virgil', sans-serif; */
+}
+
+.latest-articles {
+    font-size: 16px;
+    font-weight: 100;
+    /* margin: auto; */
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14px;
+}
+
+.latest-articles a {
+    text-decoration: none;
+    color: blue;
+}
+
+.articles-list {
+    text-align: left;
+}
+
+.latest-articles h4 {
+    margin: auto;
+    position: relative;
 }
 
 .summary {
@@ -99,11 +123,7 @@ header {
     visibility: hidden;
     height: 0;
 }
-.parent {
-    /* background-color: aliceblue; */
-    /* position: relative; */
-    /* height: 200vh; */
-}
+
 .child1 {
     background-color: lightcoral;
     /* position: sticky; */
